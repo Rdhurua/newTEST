@@ -23,7 +23,7 @@ exports.handler = async function (event, context) {
         console.error('Error fetching news:', error);
         return {
             statusCode: 500,
-            body: JSON.stringify({ error: 'Error fetching news.' }),
+            body: JSON.stringify({ error: 'Error fetching news.' }), //hello
         };
     }
 };
